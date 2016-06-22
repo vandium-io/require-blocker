@@ -23,6 +23,7 @@
   "license": "BSD-3-Clause",
   "devDependencies": {
     "chai": "^3.5.0",
+    "istanbul": "^0.4.4",
     "mocha": "^2.5.3"
   }
 }
