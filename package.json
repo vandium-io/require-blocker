@@ -1,0 +1,28 @@
+{
+  "name": "require-blocker",
+  "description": "Prevents modules from being loaded via require()",
+  "version": "1.0.0",
+  "main": "lib/module_hider.js",
+  "keywords": [
+    "unit test",
+    "testing",
+    "module",
+    "hide module",
+    "require",
+    "load module"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive",
+    "coverage": "./node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- -R spec --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vandium-io/require-blocker.git"
+  },
+  "author": "Vandium Software, Inc.",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
