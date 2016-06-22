@@ -26,7 +26,7 @@ Install via npm.
 const requireBlocker = require( 'require-blocker' );
 
 
-requireBlocker.hide( 'http', 'https' );
+requireBlocker.block( 'http', 'https' );
 
 // require( 'http' ); will fail
 // require( 'https' ); will fail
